@@ -1,0 +1,73 @@
+# Kickstarting with Excel
+
+## Overview of Project
+
+### Purpose
+The purpose of this challenge is to build upon the Excel skills learned throughout Module 1. Throughout Module 1 the goal was to help Louise plan her own successful campaign for her play *Fever*. For Louise, this challenge’s purpose was to understanding how different campaigns faired in relation to their launch dates and their fundraising goal while analyzing a dataset to discover hidden trends.
+
+### Background
+Louise, a playwright, was seeking to launch a crowdfunding campaign to for the launch of her play *Fever*. The campaign began  with estimated budget of over $10,000. Nervous about launching a crowdfunding campaign, Louise decided to enlist help. In an effort to determine if there are specific factors that make a campaign successful, I organized, sorted ,and analyzed crowdfunding data. Throughout Module 1 the goal was to help Louise plan her own successful campaign. 
+
+Louise took the analysis I performed throughout Module 1 and was able to execute here own successful crowdfunding campaign for her play *Fever*.
+
+Louise’s play *Fever* came close to its fundraising goal in short amount of time. 
+Upon completing her first crowdfunding campaign, Louise wanted to know how different campaigns faired in relation to their launch dates and their fundraising goal.
+
+## Analysis and Challenges
+With the purpose of this analyis defined, two deliverables became necessary to perform.
+-1. Visualize the campaign outcomes based on launch date
+-2. Visualize the percentage of successful, failed, and canceled playes based on funding goals amount.
+The following steps were taken to perfomr the above necessary deliverables respectivly.
+### Analysis of Outcomes Based on Launch Date
+In order to visualize the campaign outcomes based on launch date, I needed to:
+-create a new column (Years) based on data from another column (Date Created Conversion)
+-create a pivot table 
+-filter the pivot table appropriatly
+    Filter: Parent Category: Theater and Years
+    Columns: Outcomes
+    Rows: Date Created Conversion
+    Values: Count of Outcomes
+-create a chart from pivot table
+
+Below is a an image of the line chart created that displays the Theater Outcomes Based on Launch Date.
+
+### Analysis of Outcomes Based on Goals
+In order to visualize the percentage of successful, failed,and canceled playes based on funding golas amount, I needed to:
+-create a new Sheet titled "Outcomes Based on Goals"
+-set up the worksheet column headers and goal 
+-use a new function COUNTIFS() to populate the "Number Successful", "Number Failed", and "Number Canceled columns
+-create a chart from table "Outcomes Based on Goal"
+
+Below is a an image of the line chart created that displays the Outcomes Based on Goal.
+
+### Challenges and Difficulties Encountered
+Module 1, Kickstarting with Excel, began my data analytics journey. Although I had good Excel skills before this module, I encountered new obstacles and some familiar difficulties. This was the largest data set I have worked with in recent weeks, so navigating through the data was not always seamless. On two specific occasions, my formal was not correct. Although not difficult in nature, it was frustrating as the code began to blur together making it difficult for me to debug my formula. The first formula debugging was while creating the “Years” data in column U. This data was pulling data from column S “Date Created Conversion”. I failed to add the second “/60”. After re-reading the formula multiple times I finally was able to debug and enter the correct formula: “ =(((J2/60/60)/24)+DATE(1970,1,1)) “ inside the column S “Date Created Conversion”. Once this formula was correct column S and U worked properly. The second formula debugging occurred while working with the ‘Outcomes Based on Goals tab’. The COUNTIFS function used to create column B-D was simply to understand, however arranging the criteria and range correctly proved challenging. The challenges I encountered within this module revolved around navigating through a large data set and pinpointing formula failure through debugging. Altogether these challenges were likely relatively simple compared to the challenges to come.
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+There are more successful theater campaign outcomes than failed or cancled.
+
+A successful theater campaign is highly proboable, espically if launch between April and June.
+
+- What can you conclude about the Outcomes based on Goals?
+
+There is an inverse relationship between goal amount the outcome until a point where the reverse is true until the orginial conclusion becomes true again.
+    As the goal amount increase, the percentage successful decreases. Until the goal amount 35,000 to 44,999 where the revers is true. Goal amounts beyond 45,000 revert to the orginal conculsion. 
+
+- What are some limitations of this dataset?
+
+    -details on execution of campaign, what other methods outside of Kickstarter were usesd to create awareness to brind donations?
+    -there is a country location, however the city is not defined. This can be useful when deciding if theater is in a rural or urban area. 
+    -large amount of data that was not used or aligned with goal. However, much of this was filterable.
+    -how percentage funded is calculated? Is it a true, over, or under estimate?
+
+- What are some other possible tables and/or graphs that we could create?
+
+    -Do backers play a pivotal role in the outcome of a play?
+        -Number of successful, failed, cancled plays by backers  
+
+    -Average donation v. Outcomes
+    
+    -Average donation v. Percentage Funded
