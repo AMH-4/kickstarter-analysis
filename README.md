@@ -1,8 +1,3 @@
-
-![Parent Category Outcomes](https://user-images.githubusercontent.com/90002900/132962981-d66737af-cbe9-49d7-a6d9-0dda123f2730.png)
-
-
-
 # **kickstarter-analysis**
 *Performing analysis on Kickstarter data to uncover trends*
 
