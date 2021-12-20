@@ -18,9 +18,9 @@ Louise’s play *Fever* came close to its fundraising goal in short amount of ti
 Upon completing her first crowdfunding campaign, Louise wanted to know how different campaigns faired in relation to their launch dates and their fundraising goal.
  
 
-## Analysis and Challenges
+## Analysis and Challenges:
 
-#### *Analysis Overview:*
+### *Analysis Overview:*
 With the purpose of this analysis defined, two deliverables became necessary to perform. 
 	* Visualize campaign outcomes based on launch date
 	* Visualize the percentage of successful, failed, and canceled plays based on funding goals amount.
@@ -28,7 +28,7 @@ The following steps were taken to perform the above necessary deliverables:
 
 
 
-#### *Challenges and Difficulties Encountered:*
+### *Challenges and Difficulties Encountered:*
 Module 1, Kickstarting with Excel, began my data analytics journey. Although I had good Excel skills before this module, I encountered new obstacles and some familiar difficulties. This was the largest data set I have worked with in recent weeks, so navigating through the data was not always seamless. On two specific occasions, my formal was not correct. Although not difficult in nature, it was frustrating as the code began to blur together making it difficult for me to debug my formula. The first formula debugging was while creating the “Years” data in column U. This data was pulling data from column S “Date Created Conversion”. I failed to add the second “/60”. After re-reading the formula multiple times I finally was able to debug and enter the correct formula: “ =(((J2/60/60)/24)+DATE(1970,1,1)) “ inside the column S “Date Created Conversion”. Once this formula was correct column S and U worked properly. The second formula debugging occurred while working with the ‘Outcomes Based on Goals tab’. The COUNTIFS function used to create column B-D was simply to understand, however arranging the criteria and range correctly proved challenging. The challenges I encountered within this module revolved around navigating through a large data set and pinpointing formula failure through debugging. Altogether these challenges were likely relatively simple compared to the challenges to come.
 
 
