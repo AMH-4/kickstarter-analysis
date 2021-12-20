@@ -61,8 +61,8 @@ Module 1, Kickstarting with Excel, began my data analytics journey. Although I h
 ## Results:
 
 *What are two conclusions you can draw about the Theater Outcomes by Launch Date?*
-1.May was the most successfful month to launch a campaign.
-2. May was also a month of high failed campaigns.  
+* May was the most successfful month to launch a campaign.
+* May was also a month of high failed campaigns.  
 
 *What can you conclude about the Outcomes based on Goals?*
 * There is a 50%+ success rate of campaings of campaings less than $15,000 and for campaings beteen $35,000 - $45,000. The hightest successful campaign, approximaly 75%, have goal of less than $1,000. While goals beteen $45,000 - $50,000 have a failed rate of 100%. 
