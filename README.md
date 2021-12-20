@@ -28,10 +28,15 @@ The following steps were taken to perform the above necessary deliverables:
 
 #### *Steps taken to Visualize Outcomes Based on Launch Date Chart*
 
+![Outcomes_based_on_launchdate_linechart](Theater_Outcomes_vs_Launch.png)
+
+
+
+
 
 #### *Steps taken to Visualize Outcomes Based on Goals Chart*
 
-
+![Outcomes_based_on_Goals_linechart](Outcomes_vs_Goals.png)
 
 
 
