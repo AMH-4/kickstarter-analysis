@@ -60,15 +60,15 @@ Module 1, Kickstarting with Excel, began my data analytics journey. Although I h
 
 ## Results:
 
-What are two conclusions you can draw about the Theater Outcomes by Launch Date?
-	1. May was the most successfful month to launch a campaign.
-	2. May was also a month of high failed campaigns.  
+*What are two conclusions you can draw about the Theater Outcomes by Launch Date?*
+1.May was the most successfful month to launch a campaign.
+2. May was also a month of high failed campaigns.  
 
-What can you conclude about the Outcomes based on Goals?
-	* There is a 50%+ success rate of campaings of campaings less than $15,000 and for campaings beteen $35,000 - $45,000. The hightest successful campaign, approximaly 75%, have goal of less than $1,000. While goals beteen $45,000 - $50,000 have a failed rate of 100%. 
+*What can you conclude about the Outcomes based on Goals?*
+* There is a 50%+ success rate of campaings of campaings less than $15,000 and for campaings beteen $35,000 - $45,000. The hightest successful campaign, approximaly 75%, have goal of less than $1,000. While goals beteen $45,000 - $50,000 have a failed rate of 100%. 
 
-What are some limitations of this dataset?
-	*This dataset, although dense, is not able to provide everything needed. to copy-and-past a succesful camapgin. Not all variables were defined for cross-over analysis. This limited the knowledge of what each data set reprepresented. 
+*What are some limitations of this dataset?*
+* This dataset, although dense, is not able to provide everything needed. to copy-and-past a succesful camapgin. Not all variables were defined for cross-over analysis. This limited the knowledge of what each data set reprepresented. 
 
-What are some other possible tables and/or graphs that we could create?
-	Additaional visalizations that used length of campaign and number of campaign recipents would  allow for a deeper understanding of what a successful campaign looks like. A graph that told the story of the various type of doners could help determine and understand the sucessful goals reached. 
+*What are some other possible tables and/or graphs that we could create?*
+* Additaional visalizations that used length of campaign and number of campaign recipents would  allow for a deeper understanding of what a successful campaign looks like. A graph that told the story of the various type of doners could help determine and understand the sucessful goals reached. 
