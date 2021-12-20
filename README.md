@@ -26,15 +26,22 @@ With the purpose of this analysis defined, two deliverables became necessary to 
 	* Visualize the percentage of successful, failed, and canceled plays based on funding goals amount.
 The following steps were taken to perform the above necessary deliverables:
 
-#### *Steps taken to Visualize Outcomes Based on Launch Date Chart*
+#### *Steps taken to Visualize Outcomes Based on Launch Date Chart:*
+
+```
+Dim tickerIndex As Integer
+tickerIndex = 0
+```
 
 ![Outcomes_based_on_launchdate_linechart](Theater_Outcomes_vs_Launch.png)
 
 
+#### *Steps taken to Visualize Outcomes Based on Goals Chart:*
 
-
-
-#### *Steps taken to Visualize Outcomes Based on Goals Chart*
+```
+Dim tickerIndex As Integer
+tickerIndex = 0
+```
 
 ![Outcomes_based_on_Goals_linechart](Outcomes_vs_Goals.png)
 
