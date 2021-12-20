@@ -26,6 +26,13 @@ With the purpose of this analysis defined, two deliverables became necessary to 
 	* Visualize the percentage of successful, failed, and canceled plays based on funding goals amount.
 The following steps were taken to perform the above necessary deliverables:
 
+#### *Steps taken to Visualize Outcomes Based on Launch Date Chart*
+
+
+#### *Steps taken to Visualize Outcomes Based on Goals Chart*
+
+
+
 
 
 ### *Challenges and Difficulties Encountered:*
